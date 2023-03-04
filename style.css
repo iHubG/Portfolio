@@ -165,3 +165,86 @@ nav{
 .html:hover, .css:hover, .js:hover{
     scale: 1.2;
 }
+
+@media screen and (max-width: 600px){
+
+    #background{
+        aspect-ratio: 9/16;
+    }
+
+    .name{
+        margin-top: 25px;
+        margin-left: 20px; 
+        font-size: 16px;
+    }
+
+    .name h1, .name p{
+        font-size: 16px;
+    }
+
+    .name h1{
+        font-size: 20px;
+    }
+
+    .nav-bar{
+        position: absolute;
+        top: 60px;
+        left: 20px;
+    }
+
+    .nav-bar a{
+        font-size: 17px;
+        padding: 5px;
+    }
+
+    .socmed-icons{
+        margin-top: 25px;
+        margin-right: 20px;
+        padding: 20px;
+    }
+
+    #about{
+        width: 93%;
+        height: 500px;
+        flex-direction: column-reverse;
+    }
+
+    .text{
+        margin-top: 50px;
+        font-size: 16px;
+        padding-left: 30px;
+    }
+
+    .image img{
+        margin-left: 70px;
+        margin-top: 90px;
+        width: 60%;
+    }
+
+        
+    .text-skills{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .box-skills{
+        width: 90%;
+        height: 800px;
+        flex-direction: column;
+        
+    }
+
+    .html{
+        width: 50%;
+    }
+
+    .css{
+        width: 50%;
+    }
+
+    .js{
+        width: 50%;
+    }
+    
+
+}
