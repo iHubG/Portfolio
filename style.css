@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+#background{
+    margin: 0;
+    background-image: url(img/bg.jpg);
+    width: 100%;
+    background-size: cover;
+    aspect-ratio: 16/9;
+}
+
+nav{
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden; 
+}
+
+.name{
+    margin-top: 50px;
+    margin-left: 40px;    
+}
+
+.name h1, .name p{
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.name h1{
+    font-size: 24px;
+}
+
+.nav-bar{
+    margin-top: 50px;
+}
+
+.nav-bar a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
+
+.nav-bar a:hover{
+    opacity: 0.7;
+}
+.socmed-icons{
+    margin-top: 50px;
+    margin-right: 40px;
+    padding: 20px;
+}
+
+.socmed-icons img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.socmed-icons img:hover{
+    opacity: 0.8;  
+}
+
+#about{
+    width: 93%;
+    height: 400px;
+    margin: auto;
+    /*border: 2px solid black;*/
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    font-size: 20px;
+    padding-left: 20px;
+    float: left;
+}
+
+.image img{
+    width: 70%;
+    float: left;
+    box-shadow: 0px 0px 5px 1px black;
+    transition: scale 300ms;
+}
+
+.image img:hover{
+    scale: 1.2;
+}
+
+.space{
+    margin-top: 100px;
+}
+
+.text-skills{
+    text-align: center;
+    font-size: 30px;
+}
+
+.box-skills{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    background-image: url(img/bgskills.jpg);
+    background-size: cover;
+    opacity: 1;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    box-shadow: 0px 0px 2px 3px gray;
+}
+
+.box-skills img{
+    width: 100%;
+}
+
+.html{
+    text-align: center;
+    margin: 0;
+    width: 15%;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 1px gray;
+    border-radius: 4px;
+    transition: scale 300ms;
+}
+
+.css{
+    text-align: center;
+    margin: 0;
+    width: 15%;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 1px gray;
+    border-radius: 4px;
+    transition: scale 300ms;
+}
+
+.js{
+    text-align: center;
+    margin: 0;
+    width: 15%;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 1px gray;
+    border-radius: 4px;
+    transition: scale 300ms;
+}
+  
+.html:hover, .css:hover, .js:hover{
+    scale: 1.2;
+}
