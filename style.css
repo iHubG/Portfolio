@@ -59,6 +59,7 @@ nav{
 .nav-bar a:hover{
     opacity: 0.7;
 }
+
 .socmed-icons{
     margin-top: 50px;
     margin-right: 40px;
@@ -108,7 +109,7 @@ nav{
 
 .text-skills{
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .box-skills{
@@ -168,6 +169,52 @@ nav{
     scale: 1.2;
 }
 
+.about-name h2{
+    margin-top: 200px;
+    color: #000000;
+    font-size: 100px;
+    text-align: center;
+}
+
+.horizontal-line hr{
+    width: 90%;
+    height: 3px;
+    background-color: gray;
+}
+
+.footer-box{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.footer-name{
+    margin-left: 40px;
+    padding: 20px;
+}
+
+.footer-name p{
+    font-size: 18px;
+    position: relative;
+    bottom: 15px;
+}
+
+.footer-icons{
+    margin-right: 40px;
+    padding: 20px;
+}
+
+.footer-icons img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.footer-icons img:hover{
+    opacity: 0.8;  
+}
 
     /*PROJECTS PAGE*/
 
@@ -291,7 +338,6 @@ nav{
         width: 90%;
         height: 800px;
         flex-direction: column;
-        
     }
 
     .html{
@@ -306,6 +352,32 @@ nav{
         width: 50%;
     }
     
+    .about-name h2{
+        font-size: 50px;
+    }
+
+
+    .horizontal-line hr{
+        width: 90%;
+        height: 3px;
+    }
+
+    .footer-name{
+        margin-left: 0px;
+        padding: 20px;
+    }
+
+    .footer-name p{
+        font-size: 18px;
+        position: relative;
+        bottom: 15px;
+    }
+
+    .footer-icons{
+        margin-right: 0px;
+        padding: 20px;
+    }
+
 
      /*PROJECTS PAGE*/
 
