@@ -8,6 +8,8 @@ body{
     padding: 0;
 }
 
+    /*ABOUT PAGE*/
+
 #background{
     margin: 0;
     background-image: url(img/bg.jpg);
@@ -166,7 +168,65 @@ nav{
     scale: 1.2;
 }
 
+
+    /*PROJECTS PAGE*/
+
+.projects-name h2{
+    margin-top: 200px;
+    color: #000000;
+    font-size: 100px;
+    text-align: center;
+}
+
+
+    /*EXPERIENCE PAGE*/
+
+.experience-name h2{
+    margin-top: 200px;
+    color: #000000;
+    font-size: 100px;
+    text-align: center;
+}
+
+    /*CONTACT PAGE*/
+
+.contact-name h2{
+    margin-top: 200px;
+    color: #000000;
+    font-size: 100px;
+    text-align: center;
+}
+
+.contact-box{
+    margin-top: 100px;
+    margin: auto;
+    width: 70%;
+    height: 350px;
+    padding: 70px;
+    box-shadow: 0px 0px 4px 1px gray;
+}
+
+.contact-box :first-child{
+    font-size: 24px;
+}
+
+.contact-box :nth-child(2){
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.contact-box:last-child{
+    font-size: 18px;
+}
+
+
+
+
+
+
 @media screen and (max-width: 600px){
+
+     /*ABOUT PAGE*/
 
     #background{
         aspect-ratio: 9/16;
@@ -247,4 +307,44 @@ nav{
     }
     
 
+     /*PROJECTS PAGE*/
+
+     .projects-name h2{
+        font-size: 50px;
+    }
+
+    /*EXPERIENCE PAGE*/
+
+    .experience-name h2{
+        font-size: 50px;
+    }
+
+    /*CONTACT PAGE*/
+
+    .contact-name h2{
+        font-size: 50px;
+    }
+
+    .contact-box{
+        margin-top: 100px;
+        margin: auto;
+        width: 100%;
+        height: 400px;
+        padding: 50px;
+        box-shadow: 0px 0px 4px 1px gray;
+        text-align: center;
+    }
+    
+    .contact-box :first-child{
+        font-size: 24px;
+    }
+    
+    .contact-box :nth-child(2){
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+    
+    .contact-box:last-child{
+        font-size: 18px;
+    }
 }
