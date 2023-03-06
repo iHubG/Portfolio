@@ -235,6 +235,93 @@ nav{
     text-align: center;
 }
 
+.vertical-box{
+/*  border: 2px solid black; */
+    height: 1500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vertical-line{
+    border-left: 5px solid black;
+    height: 1300px;
+    z-index: -1;
+}
+
+.vertical-box h2{
+    z-index: 1;
+    position: absolute;
+    bottom: -20px;
+    left: 190px;
+    font-size: 30px;
+}
+
+.current-background{
+    width: 70%;
+    padding: 30px;
+    height: 300px;
+    background-color: gray;
+    position: absolute;
+    bottom: -338px;
+    z-index: 1;
+    box-shadow: 0px 0px 5px 1px black;
+}
+
+.current-background p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+p.current-year{
+    font-size: 30px;
+}
+
+
+.senior-background{
+    width: 70%;
+    padding: 30px;
+    height: 300px;
+    background-color: gray;
+    position: absolute;
+    bottom: -840px;
+    z-index: 1;
+    box-shadow: 0px 0px 5px 1px black;
+}
+
+.senior-background p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+p.senior-year{
+    font-size: 30px;
+}
+
+
+.junior-background{
+    width: 70%;
+    padding: 30px;
+    height: 300px;
+    background-color: gray;
+    position: absolute;
+    bottom: -1340px;
+    z-index: 1;
+    box-shadow: 0px 0px 5px 1px black;
+}
+
+.junior-background p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+p.junior-year{
+    font-size: 30px;
+}
+
     /*CONTACT PAGE*/
 
 .contact-name h2{
